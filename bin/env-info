@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+main() {
+  local -r nix_version="$(nix --version | cut -f3 -d' ')"
+  local -r yarn_version="$(yarn --version)"
+  local -r node_version="$(node --version)"
+  local -r lerna_version="$(lerna --version)"
+
+  echo -e "Nix:\t${nix_version}"
+  echo -e "Yarn:\t${yarn_version}"
+  echo -e "Node:\t${node_version}"
+  echo -e "Lerna:\t${lerna_version}"
+  echo -e "OS:\t$(uname -srp)"
+}
+
+set -euo pipefail
+main
