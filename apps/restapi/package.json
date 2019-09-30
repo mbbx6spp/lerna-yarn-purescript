@@ -1,0 +1,17 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Test REST API writting in Purescript's Hyper for validating lerna+yarn+psc-package monorepo configuration",
+  "repository": "https://github.com/mbbx6spp/lerna-yarn-purescript",
+  "author": "Susan Potter <me@susanpotter.net>",
+  "license": "MPL-2.0",
+  "private": true,
+  "scripts": {
+    "prepare": "pulp build",
+    "psinstall": "psc-package install",
+    "test": "pulp test"
+  },
+  "devDependencies": {
+    "dev-tools": "./pkgs/dev-tools"
+  }
+}

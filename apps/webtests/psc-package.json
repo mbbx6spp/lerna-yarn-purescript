@@ -1,0 +1,13 @@
+{
+  "name": "tests",
+  "set": "psc-0.13.0",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "argonaut",
+    "argonaut-generic",
+    "prelude",
+    "psci-support",
+    "test-unit",
+    "toppokki"
+  ]
+}

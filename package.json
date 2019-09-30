@@ -17,13 +17,15 @@
     "src/**/*.purs"
   ],
   "workspaces": [
-    "pkgs/*"
+    "pkgs/*",
+    "apps/*"
   ],
   "scripts": {
-    "compile": "lerna run compile",
+    "build": "lerna run build",
     "clean": "lerna run clean",
     "lint": "lerna run lint",
     "test": "lerna run test",
+    "repl": "pulp repl",
     "check": "lerna --parallel -- yarn check"
   },
   "license": "MPL-2.0",
