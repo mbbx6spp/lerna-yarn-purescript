@@ -6,11 +6,13 @@ main() {
   local -r node_version="$(node --version)"
   local -r lerna_version="$(lerna --version)"
 
+  yarn install
   echo -e "Nix:\t${nix_version}"
   echo -e "Yarn:\t${yarn_version}"
   echo -e "Node:\t${node_version}"
   echo -e "Lerna:\t${lerna_version}"
   echo -e "OS:\t$(uname -srp)"
+  echo -e "Purs:\t$(yarn exec purs --version)"
 }
 
 set -euo pipefail

@@ -1,0 +1,9 @@
+{
+  "name": "lerna-yarn-purescript",
+  "set": "psc-1.13.0",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "prelude",
+    "hyper"
+  ]
+}
