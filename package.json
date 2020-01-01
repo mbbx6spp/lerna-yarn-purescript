@@ -28,7 +28,7 @@
     "repl": "pulp repl",
     "check": "lerna --parallel -- yarn check"
   },
-  "license": "MPL-2.0",
+  "license": "BSD-3",
   "private": true,
   "devDependencies": {
     "lerna": "^3.13.0"
