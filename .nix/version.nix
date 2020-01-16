@@ -1,6 +1,6 @@
 {
-  name = "nixpkgs-19.03-darwin-20190829";
+  name = "nixpkgs-19.09-darwin-20191120";
   url  = https://github.com/NixOS/nixpkgs-channels.git;
-  rev  = "73dc83815347b9099927c24a4f131afb7c2b3b30";
-  ref  = "nixpkgs-19.03-darwin";
+  rev  = "08e503bac6decf9a3e01b79ab1f9788bf76380b1";
+  ref  = "nixpkgs-19.09-darwin";
 }

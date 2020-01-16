@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "pkgs/*",
+    "apps/*"
+  ],
+  "workspaces": true,
+  "version": "independent",
+  "npmClient": "yarn",
+  "version": "0.0.0"
+}

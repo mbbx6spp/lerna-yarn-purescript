@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+main() {
+  if [ "$(basename $0)" = "dev" ]; then
+    local -r cmd="$1"
+    shift
+  else
+    local -r cmd="$(basename $0)"
+  fi
+  echo "${cmd}"
+  pushd ..
+  yarn workspace "${cmd}" run $@
+  popd
+}
+
+if [ "$0" = "dev" ]; then
+  shift
+fi
+
+set -euo pipefail
+main $*

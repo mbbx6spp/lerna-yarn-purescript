@@ -1,0 +1,14 @@
+{
+  "name": "restapi",
+  "set": "psc-0.13.3",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "hyper",
+    "hypertrout",
+    "indexed-monad",
+    "prelude",
+    "smolder",
+    "spec",
+    "spec-discovery"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "lerna-yarn-purescript",
+  "version": "1.0.0",
+  "description": "Template repository for Lerna+Yarn+Purescript+psc-package configurations",
+  "repository": "git@github.com:mbbx6spp/lerna-yarn-purescript.git",
+  "homepage": "https://github.com/mbbx6spp/lerna-yarn-purescript",
+  "author": "Susan Potter <me@susanpotter.net>",
+  "bugs": "https://github.com/mbbx6spp/lerna-yarn-purescript/issues",
+  "keywords": [
+    "purescript",
+    "lerna"
+  ],
+  "files": [
+    "README.org",
+    "LICENSE",
+    "src/**/*.js",
+    "src/**/*.purs"
+  ],
+  "workspaces": [
+    "pkgs/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "repl": "pulp repl",
+    "check": "lerna --parallel -- yarn check"
+  },
+  "license": "BSD-3",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.13.0"
+  }
+}

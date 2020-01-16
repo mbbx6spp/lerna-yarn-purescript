@@ -1,0 +1,17 @@
+{
+  "name": "dev-tools",
+  "version": "1.0.0",
+  "description": "Dev Tools",
+  "private": true,
+  "files": [
+    "jest.config.js",
+    "psc-package.json"
+  ],
+  "scripts": {
+    "test": "yarn exec pulp test"
+  },
+  "dependencies": {
+    "purescript": "0.13.3",
+    "pulp": "13.0.0"
+  }
+}
