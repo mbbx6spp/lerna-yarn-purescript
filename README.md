@@ -1,3 +1,5 @@
+DO NOT USE THIS REPOSITORY. THIS IS ARCHIVED.
+
 # Lerna-Yarn-Purescript-`psc-package` Project Template
 
 This repository exists to explore how to setup a Lerna (multi-package) Yarn-based monorepo with Purescript projects integrated.
